@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#071529"/>
+  <!-- Grid pattern -->
+  <defs>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M 64 0 L 0 0 0 64" fill="none" stroke="rgba(201,162,78,0.04)" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(201,162,78,0.06)"/>
+      <stop offset="100%" stop-color="rgba(201,162,78,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <ellipse cx="600" cy="315" rx="500" ry="350" fill="url(#glow)"/>
+
+  <!-- TS Monogram -->
+  <rect x="120" y="180" width="130" height="25" rx="3" fill="white"/>
+  <rect x="170" y="180" width="30" height="110" rx="3" fill="white"/>
+  <path d="M196 205 Q260 205 260 240 Q260 268 238 272" stroke="white" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <path d="M108 282 Q185 318 260 278" stroke="#C9A24E" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <path d="M238 272 Q218 276 218 294 Q218 316 260 312" stroke="white" stroke-width="26" stroke-linecap="round" fill="none"/>
+
+  <!-- Wordmark -->
+  <text x="310" y="272" font-family="Arial,sans-serif" font-weight="900" font-size="72" letter-spacing="6" fill="white">TITLE</text>
+  <text x="630" y="272" font-family="Arial,sans-serif" font-weight="900" font-size="72" letter-spacing="6" fill="#C9A24E">SWIPE</text>
+
+  <!-- Tagline -->
+  <line x1="310" y1="298" x2="344" y2="298" stroke="#C9A24E" stroke-width="2" opacity="0.6"/>
+  <text x="352" y="304" font-family="Arial,sans-serif" font-weight="400" font-size="18" letter-spacing="5" fill="#C9A24E" opacity="0.7">FASTER TITLES. CLEARER DECISIONS.</text>
+  <line x1="860" y1="298" x2="894" y2="298" stroke="#C9A24E" stroke-width="2" opacity="0.6"/>
+
+  <!-- Subtitle -->
+  <text x="600" y="390" font-family="Arial,sans-serif" font-weight="400" font-size="24" fill="rgba(255,255,255,0.4)" text-anchor="middle">AI Work Product Platform for U.S. Real Estate Lawyers</text>
+</svg>
