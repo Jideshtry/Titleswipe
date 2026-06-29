@@ -1,0 +1,27 @@
+{
+  "name": "TitleSwipe\u2122 \u2014 AI Real Estate Title Due Diligence",
+  "short_name": "TitleSwipe",
+  "description": "AI-powered real estate title due diligence for law firms. Attorney title opinions in your firm's own templates.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0E0E0E",
+  "theme_color": "#0E0E0E",
+  "icons": [
+    {
+      "src": "/assets/favicon-16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
