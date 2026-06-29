@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "titleswipe",
-  "outputDirectory": "public",
+  
   "buildCommand": null,
   "installCommand": null,
   "framework": null,
