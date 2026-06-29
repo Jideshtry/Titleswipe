@@ -1,0 +1,9 @@
+.DS_Store
+.AppleDouble
+._*
+Thumbs.db
+.vscode/
+.idea/
+.vercel/
+node_modules/
+.env*
